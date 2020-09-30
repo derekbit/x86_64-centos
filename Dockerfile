@@ -9,7 +9,7 @@ RUN yum -y install rpm-build wget autoconf automake httpd httpd-devel openssh op
     libacl-devel lzo-devel sqlite-devel mysql-devel postgresql-devel \
     libcap-devel mtx qt-devel libcmocka-devel python-devel python-setuptools \
     libtermcap-devel tcp_wrappers redhat-lsb jansson-devel tcp_wrappers-devel \
-    libevent-devel sudo libtool vim; \
+    libevent-devel sudo libtool vim libarchive-devel; \
     yum clean all
 
 RUN wget http://www.tortall.net/projects/yasm/releases/yasm-1.2.0.tar.gz
